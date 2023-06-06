@@ -55,8 +55,8 @@ export default class Character implements Fighter {
     return this._dexterity;
   }
 
-  public get energy(): EnergyType | undefined {
-    return this._energy.type_;
+  public get energy(): Energy | undefined {
+    return { ...this._energy };
   }
 
   receiveDamage(attackPoints: number): number {
