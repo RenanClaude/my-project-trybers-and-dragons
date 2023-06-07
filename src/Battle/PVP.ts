@@ -25,3 +25,4 @@ export default class PVP extends Battle {
     return -1;
   }
 }
+//
