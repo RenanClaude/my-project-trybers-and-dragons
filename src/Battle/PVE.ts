@@ -13,27 +13,13 @@ export default class PVE extends Battle {
   }
 
   override fight(): number {
-    this._monsters.map((monster) => {
+    this._monsters.forEach((monster) => {
       while (this._player.lifePoints > 0 && monster.lifePoints > 0) {
         this._player.attack(monster);
         monster.attack(this._player);
       }
-      
-      if (this._player.lifePoints > monster.lifePoints) {
-        return 1;
-      } return -1; 
     });
 
     return super.fight();
   }
-
-  // override fight(): number {
-  //   for (let index = 0; index < this._monsters.length; index += 1) {
-  //     while (this._player.lifePoints > 0 
-  //       && this._monsters[index].lifePoints > 0) {
-  //       this._player.attack(this._monsters[index]);
-  //       this._monster[index].attack(this._player);
-  //     }
-  //   }
-  // }
 }
