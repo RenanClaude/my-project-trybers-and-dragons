@@ -3,9 +3,9 @@ import Character from './Character';
 import Dragon from './Dragon';
 import Monster from './Monster';
 
-const player1 = new Character({ name: 'Pati Farias' });
-const player2 = new Character({ name: 'Estélio Natário' });
-const player3 = new Character({ name: 'Emma Thomas' });
+const player1 = new Character('Pati Farias');
+const player2 = new Character('Estélio Natário');
+const player3 = new Character('Emma Thomas');
 
 player1.levelUp();
 player1.levelUp();
@@ -22,7 +22,5 @@ const runBattles = (battles: Battle[]): void => {
     battle.fight();
   });
 };
-
-runBattles([pvp]);
 
 export { player1, player2, player3, monster1, monster2, pvp, pve, runBattles };
