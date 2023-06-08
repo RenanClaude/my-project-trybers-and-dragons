@@ -3,9 +3,9 @@ import Character from './Character';
 import Dragon from './Dragon';
 import Monster from './Monster';
 
-const player1 = new Character('Pati Farias');
-const player2 = new Character('Estélio Natário');
-const player3 = new Character('Emma Thomas');
+const player1 = new Character({ name: 'Pati Farias' });
+const player2 = new Character({ name: 'Estélio Natário' });
+const player3 = new Character({ name: 'Emma Thomas' });
 
 player1.levelUp();
 player1.levelUp();
