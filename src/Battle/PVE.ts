@@ -19,7 +19,6 @@ export default class PVE extends Battle {
         monster.attack(this._player);
       }
     });
-
     return super.fight();
   }
 }
