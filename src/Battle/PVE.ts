@@ -15,8 +15,12 @@ export default class PVE extends Battle {
   override fight(): number {
     this._monsters.forEach((monster) => {
       while (this._player.lifePoints > 0 && monster.lifePoints > 0) {
+        this._monsters.sort((a, b) => a.lifePoints - b.lifePoints);
         this._player.attack(monster);
-        monster.attack(this._player);
+
+        this._monsters.forEach((monsterAttack) => {
+          monsterAttack.attack(this._player);
+        });
       }
     });
     return super.fight();

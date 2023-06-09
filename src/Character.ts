@@ -90,9 +90,8 @@ export default class Character implements Fighter {
   }
 
   special(enemy: SimpleFighter): void {
-    this._strength += 1000000;
-    this._defense += 100;
+    this._strength *= 10;
     enemy.receiveDamage(this._strength);
-    this._strength -= 1000000;
+    this._strength /= 10;
   }
 }
