@@ -1,10 +1,22 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Trybers and Dragons
+Esse é um projeto requisitado para a formação na escola de programação Trybe.<br/>
+Todos os diretórios e arquivos que estão dentro do diretório "src" são de minha autoria, os demais são de autoria da Trybe.<br/>
+Este projeto é a lógica por trás de um jogo de RPG. 
+
+## Programação Orientada a Objetos
+O presente projeto tem como objetivo por em prática os conhecimentos adquiridos a respeito do assunto: Programação Orientada a Objetos.<br/>
+Os 4 pilares postos em prática são:<br/>
+#### Abstração<br/>
+#### Encapsulamento<br/>
+#### Polimorfismo<br/>
+#### Herança
+
+## Princípios da Programação Orientada a Objetos - SOLID
+Além dos 4 pilares já mencionados, este projeto foi desenvolvido baseando-se nos princípios a seguir:
+#### S – Single Responsibility Principle (Princípio da responsabilidade única)
+#### O – Open-Closed Principle (Princípio Aberto-Fechado)
+#### L – Liskov Substitution Principle (Princípio da substituição de Liskov)
+#### I – Interface Segregation Principle (Princípio da Segregação da Interface)
+#### D – Dependency Inversion Principle (Princípio da inversão da dependência)
+
+
