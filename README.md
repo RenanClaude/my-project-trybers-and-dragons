@@ -1,7 +1,8 @@
 # Projeto Trybers and Dragons
 Esse é um projeto requisitado para a formação na escola de programação Trybe.<br/>
 Todos os diretórios e arquivos que estão dentro do diretório "src" são de minha autoria, os demais são de autoria da Trybe.<br/>
-Este projeto é a lógica por trás de um jogo de RPG. 
+Este projeto é a lógica por trás de um jogo de RPG.<br/>
+Projeto totalmente <b>Back-End</b>.
 
 ## Programação Orientada a Objetos
 O presente projeto tem como objetivo por em prática os conhecimentos adquiridos a respeito do assunto: Programação Orientada a Objetos.<br/>
