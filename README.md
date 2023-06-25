@@ -4,6 +4,11 @@ Todos os diretórios e arquivos que estão dentro do diretório "src" são de mi
 Este projeto é a lógica por trás de um jogo de RPG.<br/>
 Projeto totalmente <b>Back-End</b>.
 
+## 👨‍💻 Linguagem e Tecnologias utilizadas
+- <i><b>[TypeScript](https://www.typescriptlang.org/)</b></i><br/>
+- <i><b>[Node.js](https://nodejs.org/en)</b></i><br/>
+- <i><b>[Docker](https://www.docker.com/)</b></i><br/>
+
 ## Programação Orientada a Objetos
 O presente projeto tem como objetivo por em prática os conhecimentos adquiridos a respeito do assunto: Programação Orientada a Objetos.<br/>
 Os 4 pilares postos em prática são:<br/>
