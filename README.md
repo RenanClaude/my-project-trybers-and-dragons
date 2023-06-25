@@ -12,10 +12,10 @@ Projeto totalmente <b>Back-End</b>.
 ## ⭐ Programação Orientada a Objetos
 O presente projeto tem como objetivo por em prática os conhecimentos adquiridos a respeito do assunto: Programação Orientada a Objetos.<br/>
 Os 4 pilares postos em prática são:<br/>
-#### Abstração<br/>
-#### Encapsulamento<br/>
-#### Polimorfismo<br/>
-#### Herança
+- <b>Abstração</b><br/>
+- <b>Encapsulamento</b><br/>
+- <b>Polimorfismo</b><br/>
+- <b>Herança</b><br/>
 
 ## 🧠 Princípios da Programação Orientada a Objetos - SOLID
 Além dos 4 pilares já mencionados, este projeto foi desenvolvido baseando-se nos princípios a seguir:
